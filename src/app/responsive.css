@@ -1,0 +1,23 @@
+.carousel-container {
+  display: flex;
+}
+
+.carousel-mobile {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.carousel-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-mobile {
+    display: none;
+  }
+
+  .carousel-desktop {
+    display: flex;
+  }
+}
